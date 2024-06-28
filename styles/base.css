@@ -54,22 +54,10 @@
     color: #0C326B;
 } */
 
-/* body {
-    max-width: 100%;
-
-} */
-/* body {
-    max-width: 100%;
-} */
-
-/* main {
-    background-image: linear-gradient(to bottom, #2F3061 35%, #AAF3D7 45%);
-} */
 body {
     max-width: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to bottom, #2F3061 35%, #AAF3D7 45%);
+
+    /* background-image: linear-gradient(to bottom, #2F3061 35%, #AAF3D7 45%); */
 }
 
 /* .hero-container {
@@ -120,7 +108,6 @@ header {
 }
 
 #menu {
-    font-family: var(--font_bxbold);
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -137,7 +124,7 @@ header {
 }
 
 .navigation {
-    /* font-family: var(--font_bxbold); */
+    font-family: var(--font_bxbold);
     font-size: larger;
     justify-content: center;
     padding: 15px;
