@@ -71,12 +71,28 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 0%);
-    color: #AAF3D7;
+    transform: translate(-50%, 10%);
+    color: #0C326B;
     text-align: center;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 15px #000;
+    text-shadow: 0 0 10px #fff;
+    margin: 0;
+    z-index: 3;
+}
+
+h2 {
+    /* font-size: medium; */
+    font-family: var(--font_breg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+    color: #0C326B;
+    text-align: center;
+    font-size: 3vw;
+    font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px #fff;
     margin: 0;
     z-index: 3;
 }
