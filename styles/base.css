@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'bronkohregular';
+    src: url('fonts/bronkoh-regular-bf65519bc788d98-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'bronkohextrabold';
+    src: url('fonts/bronkoh-extrabold-bf65519bc761d7b-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'bronkoh-heavyitalic';
+    src: url('fonts/bronkoh-heavyitalic-bf65519bc78690c-webfont.woff2')
+}
+
+:root {
+    font-family: 'bronkohregular';
+    --font_breg: 'bronkohregular';
+    --font_bxbold: 'bronkohextrabold';
+    --font_hvyitalic: 'bronkoh-heavyitalic';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: #0C326B;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px#fff;
+} */
+
+/* .contact p {
+    z-index: 3;
+    color: #0C326B;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font_hvyitalic);
+    padding: 20px;
+} */
+
+/* h2 {
+    font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
+    color: #0C326B;
+} */
+
+body {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F3061;
+    padding: 10px 20px;
+}
+
+.logo {
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: #fff;
+}
+
+#menu::before {
+    content: "≡";
+    /* position: absolute;
+    right: 10px;
+    top: 2px; */
+}
+
+.navigation {
+    font-family: Arial, var(--font_bxbold);
+    font-size: larger;
+    justify-content: center;
+    padding: 15px;
+}
+
+.navigation li {
+    display: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: #000;
+    background-color: #AAF3D7;
+}
+
+.navigation .active {
+    text-decoration: underline;
+    text-decoration-color: #F9FD46;
+    text-decoration-thickness: 4px;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+}
+
+hr {
+    border: 1px solid #0C326B;
+    width: 20%;
+    margin: auto;
+}
+
+.button-container {
+    padding: 20px;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.button {
+    display: block;
+    background-color: #0C326B;
+    color: #35F083;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    max-width: 200px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.weather-container {
+    max-width: 100%;
+    padding-top: 120px;
+    background-color: #2F3061;
+}
+
+.current-weather,
+.tomorrow-weather,
+.day-after-tomorrow-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.weather {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    color: #fff;
+    background-color: #0C326B;
+    max-width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.social {
+    margin: 20px auto;
+}
+
+.footer-content {
+    color: #35F083;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #0C326B;
+    z-index: 1;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eli Hansen">
+    <meta name="description" content="Central Park LDS Mid-Singles Conference">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&family=Wix+Madefor+Text:wght@500&display=swap">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="/centralparksingles/styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="Central Park Mid-Singles Conference">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://emh68.github.io/.webp">
+    <meta property="og:url" content="https://emh68.github.io/index.html">
+    <title>Central Park Mid-Singles Conference</title>
+</head>
+
+<body>
+    <header>
+        <a id="menu" href="#" aria-label="Toggle Hamburger Menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="discover.html">Activities/Events</a></li>
+                <li><a href="scehdule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Central Park Mid-Singles Conference</h1>
+        <!-- <div class="banner">
+            <div class="banner-text">
+                <strong>
+                    Join us every Wednesday at 7:00pm at our Main Street office for our Chamber of Commerce Meet &
+                    Greet!
+                </strong>
+            </div>
+        <button class="banner-close" type="button" aria-label="Close banner">✕</button>
+        </div> -->
+        <!-- <div class="hero">
+            <picture>
+                <source srcset="images/slc-skyline-small.webp" media="(max-width: 480px)">
+                <source srcset="images/slc-skyline-medium.webp" media="(max-width: 1280px)">
+                <img src="images/slc-skyline-large.webp" alt="Salt_Lake_City_Skyline" width="1280" height="853">
+            </picture>
+        </div>
+        <section class="membership-benefits">
+            <div class="membership-headline">
+                <h2>Membership Benefits</h2>
+                <hr>
+            </div>
+            <div class="benefits-spotlight">
+                <img src="images/spotlight.webp" width="100" height="100" alt="Spotlight">
+                <h3>Business Spotlight</h3>
+                <p>In addition to our ribbon cutting ceremonies, every month we highlight a business member of the
+                    chamber.
+                </p>
+            </div>
+            <div class="benefits-advertising">
+                <img src="images/megaphone.webp" width="100" height="100" alt="Megaphone">
+                <h3>Website Advertising</h3>
+                <p>From out weekly Meet & Greets, to our monthly luncheons, to our website, we have multiple
+                    different channels we can use to advertise your business.
+                </p>
+            </div>
+            <div class="benefits-connect">
+                <img src="images/handshake.webp" width="100" height="100" alt="Handshake icon">
+                <h3>Connect</h3>
+                <p>As a member of the chamber you will have opportunities to connect with other business leaders and
+                    access to special resources that can help you improve your business.</p>
+            </div>
+            <a class="button" href="join.html">Become A Member</a>
+        </section>
+        <section class="weather-events-container">
+            <div class="events">
+                <h2>Events</h2>
+                <hr>
+                <h3>Ribbon Cutting - Ristorante Bellissimo</h3>
+                <p>Join us for the grand opening of Ristorante Bellissimo, Thursday at 1:00pm <a href="">more
+                        info...</a></p>
+            </div>
+            <div class="weather">
+                <h2>Weather</h2>
+                <hr>
+                <div class="current-weather">
+                    <strong id="current-month-day"></strong>
+                    <img id="current-weather-icon" src="#" alt="Weather icon">
+                    <strong><span id="current-temp"></span></strong>
+                    <figure>
+                        <figcaption id="current-desc"></figcaption>
+                    </figure>
+                    <div class="current-temp-low">L: <span id="current-temp-low"></span></div>
+                    <div class="current-temp-high">H: <span id="current-temp-high"></span></div>
+                    <div class="current-windspeed">Wind: <span id="current-wind-speed"></span></div>
+                    <div class="current-wind-chill"><span id="current-wind-chill"></span></div>
+                </div>
+                <div class="tomorrow-weather">
+                    <strong id="tomorrow-month-day"></strong>
+                    <img id="tomorrow-weather-icon" src="#" alt="Weather icon">
+                    <strong><span id="tomorrow-temp"></span></strong>
+                    <figure>
+                        <figcaption id="tomorrow-desc"></figcaption>
+                    </figure>
+                    <div class="tomorrow-temp-low">L: <span id="tomorrow-temp-low"></span></div>
+                    <div class="tomorrow-temp-high">H: <span id="tomorrow-temp-high"></span></div>
+                    <div class="tomorrow-windspeed">Wind: <span id="tomorrow-wind-speed"></span></div>
+                    <div class="tomorrow-wind-chill"><span id="tomorrow-wind-chill"></span></div>
+                </div>
+                <div class="day-after-tomorrow-weather">
+                    <strong id="day-after-tomorrow-month-day"></strong>
+                    <img id="day-after-tomorrow-weather-icon" src="#" alt="Weather icon">
+                    <strong><span id="day-after-tomorrow-temp"></span></strong>
+                    <figure>
+                        <figcaption id="day-after-tomorrow-desc"></figcaption>
+                    </figure>
+                    <div class="day-after-tomorrow-temp-low">L: <span id="day-after-tomorrow-temp-low"></span></div>
+                    <div class="day-after-tomorrow-temp-high">H: <span id="day-after-tomorrow-temp-high"></span></div>
+                    <div class="day-after-tomorrow-windspeed">Wind: <span id="day-after-tomorrow-wind-speed"></span>
+                    </div>
+                    <div class="day-after-tomorrow-wind-chill"><span id="day-after-tomorrow-wind-chill"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="spotlight">
+            <h2>Business Spotlight</h2>
+            <hr>
+            <article class="membersGrid" aria-label="Directory of Members"></article>
+        </section> -->
+
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>
+                <strong>Central Park Mid-Singles Ward</strong><br>1155 1st St.<br>
+                Idaho Falls, ID 83401<br><br>Email: info@slchamber.com
+            </p>
+        </div>
+        <br>
+        <div class="footer-content"><span>&copy; <span id="currentYear"></span> Eli Hansen <br>
+                <span id="lastModified">Last
+                    Modified:</span></span>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotlight.js"></script>
+</body>
+
+</html>
