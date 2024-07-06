@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {
 
     .navigation {
         display: flex;
@@ -101,4 +101,4 @@
     .contact-info {
         display: grid;
     }
-} */
+}
