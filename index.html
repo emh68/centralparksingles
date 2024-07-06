@@ -26,9 +26,9 @@
             <ul class="navigation">
                 <li><a href="#" class="active">HOME</a></li>
                 <!-- <li><a href="activities.html">ACTIVITIES/EVENTS</a></li> -->
-                <li><a href="scehdule.html">SCHEDULE</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="speakers.html">SPEAKERS</a></li>
+                <li><a href="#schedule">SCHEDULE</a></li>
+                <li><a href="#registration">REGISTER</a></li>
+                <li><a href="#speakers">SPEAKERS</a></li>
                 <li><a href="FAQ.html">FAQs</a></li>
                 <li><a href="Contact.html">CONTACT</a></li>
             </ul>
@@ -47,7 +47,9 @@
             </picture>
         </div>
 
-        <section class="schedule">
+        <section class="schedule" id="schedule">
+            <h2>Schedule</h2>
+            <hr>
             <h3>Friday, Aug 2</h3>
             <ul>
                 <li><strong>9:00pm</strong>&emsp;Dancing</li>
@@ -68,19 +70,83 @@
                 <li><strong>3:45pm</strong>&emsp; Break the fast</li>
             </ul>
         </section>
-        <section class="register">
-            <h3>Register</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nostrum voluptatibus expedita facere
-                eveniet magni beatae aperiam fuga? Accusantium saepe quasi asperiores iusto officia quis totam
-                perferendis, culpa consequuntur nobis?</p>
-
+        </div>
+        <section class="registration" id="registration">
+            <h3>REGISTRATION</h3>
+            <hr>
+            <p>Registration is free! That's right the cost of the conference is free, like a Costco sample, like the
+                lint
+                in your pocket or the hugs from your grandma! IT IS FREE! Because this event is free, we ask that you
+                please make sure and register as soon as possible so we can plan for enough food and seating for
+                everyone! Thank you!</p>
+            <img src="images/free-blue-seal.webp" alt="100% free blue seal">
+            <a class="button" href="join.html">Register Today</a>
         </section>
-        <section class="speakers">
+        <section class="speakers" id="speakers">
             <h3>Speakers</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, aliquam mollitia id sunt laborum suscipit
-                laudantium nesciunt iure cupiditate nihil. Corporis reprehenderit facere alias sit similique enim harum
-                earum laboriosam.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequuntur dolores eum
+                perspiciatis ipsam incidunt, dolor voluptates commodi harum illo consectetur quam vel vitae iusto, quae
+                ad! Aperiam, minima aliquid.</p>
         </section>
+        <section class="faq">
+            <h3>FAQs</h3>
+            <div class="faq-category">
+                <h4>SPONSOR</h4>
+                <dl>
+                    <div class="faq-item">
+                        <dt>Q: Who is sponsoring/organizing this conference? Is this an official church activity?</dt>
+                        <dd>A: The Central Park Singles Conference is an official church activity sponsored by the
+                            Central Park Mid-Singles Ward.</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="faq-category">
+                <h4>COST</h4>
+                <dl>
+                    <div class="faq-item">
+                        <dt>Q: Does the conference cost anything?</dt>
+                        <dd>A: No, this conference is free! However, we do ask that you please make sure to register as
+                            early as possible so we can plan for enough food and space to accomodate everyone who is
+                            coming. There will be some food/meals provided, but any additional food/meals, lodging, gas,
+                            plane tickets, etc. are your individual responsibility.</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="faq-category">
+                <h4>AGE & ATTENDANCE</h4>
+                <dl>
+                    <div class="faq-item">
+                        <dt>Q: Who can attend this conference? Is there an age range?</dt>
+                        <dd>A: The conference is intended for ALL SINGLES between the ages of 31 - 45 years old.</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="faq-category">
+                <h4>LOCATION</h4>
+                <dl>
+                    <div class="faq-item">
+                        <dt>Q: Where is this located?</dt>
+                        <dd>A: Currently, all activities related to the conference will be held at the Central Park
+                            Mid-Singles Ward church building. If this changes we will let you know. The Central Park
+                            Mid-Singles Ward of The Church of Jesus Christ of Latter-Day Saints is located
+                            at:<br>1155 1st St., Idaho Falls, ID 83401</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="faq-category">
+                <h4>WEATHER</h4>
+                <dl>
+                    <div class="faq-item">
+                        <dt>Q: Why is this conference being held in July? Are there cooler, indoor options throughout
+                            the conference?</dt>
+                        <dd>A: Yes! The schedule was chosen for July to ensure all the teachers have an opportunity to
+                            attend a singles conference that doesn’t interfere with their work schedule.</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
     </main>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23152.867185928273!2d-112.03301237629637!3d43.500074192364075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545ebce2dd2c51%3A0xae774d6eccbffefd!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1719703544025!5m2!1sen!2sus"
@@ -95,9 +161,9 @@
             </p>
         </div>
         <br>
-        <div class="footer-content"><span>&copy; <span id="currentYear"></span> Eli Hansen <br>
-                <span id="lastModified">Last
-                    Modified:</span></span>
+        <div class="footer-content"><span>&copy; <span id="currentYear"></span> Eli Hansen <br></span>
+            <!-- <span id="lastModified">Last
+                    Modified:</span></span> -->
         </div>
     </footer>
     <script src="scripts/index.js"></script>

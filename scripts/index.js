@@ -2,7 +2,7 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 // Dynamically populate the last modified date
-document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+// document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
 
 // Hamburger navigation button
 // Store the selected elements 
