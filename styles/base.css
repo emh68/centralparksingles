@@ -28,17 +28,14 @@
 
 body {
     max-width: 100%;
-    /* background-image: linear-gradient(to bottom, #2F3061 35%, #AAF3D7 45%); */
 }
 
 main {
     max-width: 100%;
 }
 
-
 h1 {
     position: absolute;
-    /* top: 50%; */
     left: 50%;
     transform: translate(-50%, 10%);
     color: #150E60;
@@ -46,24 +43,18 @@ h1 {
     font-size: 6vw;
     font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
     text-shadow: 0 0 10px #fff;
-    /* margin: 0; */
-    /* z-index: 3; */
 }
 
 h2 {
     font-family: var(--font_breg);
     position: absolute;
-    /* top: 50%; */
     left: 50%;
     transform: translate(-50%, 450%);
     color: #150E60;
     text-align: center;
-    /* font-size: 3vw; */
     font-size: 4vw;
     font-family: var(--font_hvyitalic), Arial, Helvetica, sans-serif;
     text-shadow: 0 0 10px #fff;
-    /* margin: 0; */
-    /* z-index: 3; */
 }
 
 header {
@@ -198,6 +189,10 @@ hr {
     margin: 0;
 }
 
+.schedule h3:first-of-type {
+    padding-top: 20px;
+}
+
 .schedule h3 {
     text-align: left;
     padding-left: 20px;
@@ -251,6 +246,7 @@ hr {
 }
 
 .registration p {
+    font-family: var(--font_bxbold);
     padding: 20px;
 }
 
@@ -276,8 +272,19 @@ hr {
 .speakers {
     background-color: #5A0B4D;
     color: #E7CCCB;
+    font-family: var(--font_breg);
     text-align: center;
     padding: 30px;
+}
+
+.speakers hr {
+    border: 1px solid #E7CCCB;
+    width: 20%;
+    margin: auto;
+}
+
+.speakers ul li {
+    padding: 10px;
 }
 
 
@@ -295,10 +302,7 @@ hr {
 }
 
 .faqs h3 {
-    /* text-align: center; */
     color: #6fff1b;
-    /* font-size: xx-large; */
-
 }
 
 .faqs hr {
@@ -338,18 +342,15 @@ hr {
     font-weight: bold;
     color: #CFE6FF;
     padding: 10px;
-    /* Color for question text */
 }
 
 .faq-item dd {
     margin-left: 10px;
     color: #66cfff;
-    /* Color for answer text */
 }
 
 .faq-category h4 {
     color: #6fff1b;
-    /* Color for category heading */
 }
 
 .contact h2 {
@@ -363,7 +364,7 @@ hr {
     top: 0;
     left: 0;
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
 }
 
 .contact hr {
@@ -385,14 +386,8 @@ hr {
     color: #150E60;
 }
 
-
-.social {
-    margin: 20px auto;
-}
-
 .footer-content {
     color: #CFE6FF;
-    /* padding: 20px; */
 }
 
 iframe {
