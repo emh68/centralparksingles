@@ -17,6 +17,10 @@
         display: none;
     }
 
+    section {
+        scroll-margin-top: 75px;
+    }
+
     body {
         max-width: 100%;
         margin: auto;
@@ -39,63 +43,20 @@
         grid-column: 1 / -1;
     }
 
-    .membership-benefits {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-
-    .membership-headline {
-        grid-column: 1 / -1;
-    }
-
-    .button {
-        grid-column: 1 / -1;
-        width: 200px;
-    }
-
-    .weather-events-container {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 20px;
-    }
-
-
-    .events {
-        grid-column: 1;
-    }
-
-    .weather {
-        grid-column: 2;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 5px;
-    }
-
-    .weather h2,
-    .weather hr {
-        grid-column: 1 / -1;
+    .schedule {
+        font-size: 1vw;
         text-align: center;
+        justify-items: center;
     }
 
-    .spotlight {
-        display: grid;
+    .schedule ul {
+        text-align: center;
+        justify-items: center;
+        list-style: none;
     }
 
-    .spotlight .membersGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .membersGrid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    }
-
-    .membersList {
-        grid-gap: 0;
-        display: list-item;
-        list-style-type: none;
+    .registration {
+        font-size: 1vw;
     }
 
     .contact-info {
